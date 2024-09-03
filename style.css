@@ -1,0 +1,155 @@
+*,
+*::before,
+*::after {
+ font-family: "Inter", system-ui;
+ box-sizing: border-box;
+ margin: 0;
+ padding: 0;
+}
+
+body {
+ background-color: #141414;
+}
+
+#container {
+ width: 250px;
+ height: 360px;
+ margin-left: auto;
+ margin-right: auto;
+ margin-top: 7rem ;
+ background-color: #1f1f1f;
+ border-radius: 12px;
+}
+
+.container-image {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ }
+
+ .container-image img {
+  width: 3.5rem;
+  border-radius: 10rem;
+  margin-top: 2rem;
+  }
+
+  .container-text {
+   color: #ffffff;
+   }
+
+  h1 {
+   display: flex;
+   justify-content: center;
+   font-size: 18px;
+   margin-top: 14px;
+  }
+
+  h2 {
+   display: flex;
+   justify-content: center;
+   font-size: 10px;
+   color: #c5f82a;
+   margin-top: 7px;
+  }
+
+  p {
+   display: flex;
+   justify-content: center;
+   font-size: 9px;
+   margin-top: 18px;
+}
+
+.ul-items {
+ list-style: none;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ margin-top: 12px;
+ color: #ffffff;
+
+}
+
+.GitHub {
+width: 80%;
+height: 25px;
+border: 5px;
+border-radius: 4px;
+background-color: #333333;
+font-size: 10px;
+text-align: center;
+padding-top: 2.5%;
+}
+
+.GitHub a {
+ text-decoration: none;
+ color: #ffffff;
+}
+
+.Frontend-Mentor {
+width: 80%;
+height: 25px;
+border: 5px;
+border-radius: 4px;
+background-color: #333333;
+font-size: 10px;
+margin-top: 3%;
+text-align: center;
+padding-top: 2.5%;
+ }
+
+ .Frontend-Mentor a {
+  text-decoration: none;
+  color: #ffffff;
+ }
+
+ .LinkedIn {
+width: 80%;
+height: 25px;
+border: 5px;
+border-radius: 4px;
+background-color: #333333;
+font-size: 10px;
+margin-top: 3%;
+text-align: center;
+padding-top: 2.5%;
+  }
+
+  .LinkedIn a {
+   text-decoration: none;
+   color: #ffffff;
+  }
+
+  .Twitter {
+width: 80%;
+height: 25px;
+border: 5px;
+border-radius: 4px;
+background-color: #333333;
+font-size: 10px;
+margin-top: 3%;
+text-align: center;
+padding-top: 2.5%;
+   }
+
+   .Twitter a {
+    text-decoration: none;
+    color: #ffffff;
+   }
+
+   .Instagram {
+width: 80%;
+height: 25px;
+border: 5px;
+border-radius: 4px;
+background-color: #333333;
+font-size: 10px;
+margin-top: 3%;
+text-align: center;
+padding-top: 2.5%;
+    }
+
+    .Instagram a {
+     text-decoration: none;
+     color: #ffffff;
+    }
+   
